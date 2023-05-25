@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reference the CSS styling file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <!-- Create basic elements of board -->
+    <div class="container">
+        <h1>TIC-TAC-TOE</h1>
+        <br>
+        <h2 id="playerText">Player X's turn</h2>
+        <button id="restartBtn">Restart</button>
+    
+        <!-- Use a class if you need to use the same selector more than once withing a page or site
+        ID's are specific to a given element, but classes can be assigned to multiple elements on a page
+        i.e. classes are NOT unique -->
+        <div id="game-board">
+            <div class="box" id="0"></div>
+            <div class="box" id="1"></div>
+            <div class="box" id="2"></div>
+            <div class="box" id="3"></div>
+            <div class="box" id="4"></div>
+            <div class="box" id="5"></div>
+            <div class="box" id="6"></div>
+            <div class="box" id="7"></div>
+            <div class="box" id="8"></div>
+        </div>
+    </div>
+
+    <!--Reference the Javascript file-->
+    <script src="app.js"></script>
+
+</body>
+</html>
